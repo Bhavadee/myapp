@@ -37,7 +37,7 @@ main{
 .btn
 {
   height: 50px;
-  width: 100px;
+  width: 150px;
   border: none;
   border-radius: 6px;
   background-color: #5035FF;
@@ -53,7 +53,19 @@ main{
 .dice-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  
  
 }
 
+.title {
+  font-size: 40px;
+  margin: 2%;
+}
+
+.instructions {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  margin-top: 0;
+  text-align: center;
+}
 
