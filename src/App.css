@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  text-align: center;
 }
 
 body {
@@ -23,21 +24,36 @@ main{
     height: 50px;
     width: 50px;
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.15);
-
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
     cursor: pointer;
-    margin: ;
+    margin:3%;
     background-color: white;
 }
 
+.btn
+{
+  height: 50px;
+  width: 100px;
+  border: none;
+  border-radius: 6px;
+  background-color: #5035FF;
+  color: white;
+  font-size: 1.2rem;
+  font-family: 'Karla', sans-serif;
+  margin: 10% auto;
+}
 
+.btn:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
 .dice-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
  
 }
+
 
